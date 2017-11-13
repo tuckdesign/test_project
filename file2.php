@@ -11,6 +11,6 @@ class TestClass2 {
     public function testFirstClass() {
         $class1 = new TestClass1();
         $class1->method(1, 2, 3);
-        TextClass1::staticMethod();
+        TestClass1::staticMethod();
     }
 }
